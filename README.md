@@ -1,11 +1,11 @@
-# 💼 Smart Recruitment Assistant
+#  Smart Recruitment Assistant
 ### AI Professional Diploma — Graduation Project
 
 An intelligent recruitment screening system that predicts whether a candidate should advance in the hiring pipeline, built on a large-scale synthetic recruitment dataset and benchmarked across five classic Machine Learning models.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Modern organizations receive hundreds (or thousands) of applications per vacancy, making manual screening slow and inconsistent. This project builds a data-driven hiring-decision classifier that:
 
@@ -17,7 +17,7 @@ Modern organizations receive hundreds (or thousands) of applications per vacancy
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **Resume Screening Dataset (200K Candidates)**
 🔗 [https://www.kaggle.com/datasets/rhythmghai/resume-screening-dataset-200k-candidates](https://www.kaggle.com/datasets/rhythmghai/resume-screening-dataset-200k-candidates)
@@ -31,7 +31,7 @@ Modern organizations receive hundreds (or thousands) of applications per vacancy
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 1. Prepare a large, messy recruitment dataset for reliable modeling
 2. Build and compare multiple classifiers on the same candidate-screening task
@@ -40,7 +40,7 @@ Modern organizations receive hundreds (or thousands) of applications per vacancy
 
 ---
 
-## 🛠️ Project Structure
+##  Project Structure
 
 ```
 Smart-Recruitment-Assistant/
@@ -71,7 +71,7 @@ Smart-Recruitment-Assistant/
 
 ---
 
-## 🧹 1. Data Preparation
+##  1. Data Preparation
 
 **Missing Value Handling**
 - Categorical fields: impute with an explicit `"Unknown"` category (missingness itself can be informative in HR data) or the column mode where appropriate
@@ -90,7 +90,7 @@ Smart-Recruitment-Assistant/
 
 ---
 
-## 🤖 2. Machine Learning Models
+##  2. Machine Learning Models
 
 Five classifiers are trained and compared on the same prepared dataset:
 
@@ -106,7 +106,7 @@ Each model is trained on an identical train/test split for a fair, apples-to-app
 
 ---
 
-## 📈 3. Model Evaluation
+##  3. Model Evaluation
 
 Every model is evaluated on the held-out test set using:
 
@@ -120,7 +120,7 @@ A consolidated **model comparison table and chart** rank all five models side by
 
 ---
 
-## 💡 4. Business Insights
+##  4. Business Insights
 
 Beyond raw metrics, the project translates model output into recruiter-facing insights:
 
@@ -130,50 +130,19 @@ Beyond raw metrics, the project translates model output into recruiter-facing in
 
 ---
 
-## 🏆 5. Candidate Ranking System (Top 10)
+##  5. Candidate Ranking System (Top 10)
 
 Using the best-performing model's predicted probabilities, the system generates a ranked shortlist of the **Top 10 candidates** most likely to be strong hires — giving recruiters an immediately actionable list instead of manually reviewing the full applicant pool.
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - **Language:** Python
 - **Data Processing:** NumPy, Pandas
 - **Visualization:** Matplotlib, Seaborn, Plotly
 - **Machine Learning:** Scikit-Learn
 - **Environment:** Jupyter Notebook
-
----
-
-## 🚀 How to Run
-
-```bash
-# 1. Clone the repository
-git clone <repo-url>
-cd Smart-Recruitment-Assistant
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Download the dataset from Kaggle and place it in data/raw/
-
-# 4. Launch the notebook
-jupyter notebook notebooks/Smart_Recruitment_Assistant.ipynb
-```
-
----
-
-## 📄 Deliverables
-
-- [ ] Jupyter Notebook (`.ipynb`) — full pipeline, end to end
-- [ ] Trained models (`.pkl`)
-- [ ] Model performance comparison report
-- [ ] Interactive recruitment dashboard
-- [ ] Top-10 candidate ranking output
-- [ ] Project report (2–4 pages)
-- [ ] Presentation slides (5–10 slides)
-
 ---
 
 ## 👤 Author

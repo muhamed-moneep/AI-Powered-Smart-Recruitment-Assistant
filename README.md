@@ -1,5 +1,5 @@
-#  Smart Recruitment Assistant
-### AI Professional Diploma — Graduation Project
+#  AI-Powered Smart Recruitment Assistant
+### ITI CodeCamp - AI Professional Diploma — Graduation Project
 
 An intelligent recruitment screening system that predicts whether a candidate should advance in the hiring pipeline, built on a large-scale synthetic recruitment dataset and benchmarked across five classic Machine Learning models.
 

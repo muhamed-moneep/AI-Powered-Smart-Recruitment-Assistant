@@ -145,7 +145,7 @@ Using the best-performing model's predicted probabilities, the system generates 
 - **Environment:** Jupyter Notebook
 ---
 
-## 👤 Author
+##  Author
 
-AI Professional Diploma — Graduation Project
-*Smart Recruitment Assistant*
+ITI CodeCamp - AI Professional Diploma — Graduation Project
+*AI-Powered Smart Recruitment Assistant*

@@ -40,37 +40,6 @@ Modern organizations receive hundreds (or thousands) of applications per vacancy
 
 ---
 
-##  Project Structure
-
-```
-Smart-Recruitment-Assistant/
-│
-├── data/
-│   ├── raw/                     # Original dataset (downloaded from Kaggle)
-│   └── processed/                # Cleaned & feature-engineered dataset
-│
-├── notebooks/
-│   └── Smart_Recruitment_Assistant.ipynb   # Full end-to-end notebook
-│
-├── models/
-│   ├── logistic_regression.pkl
-│   ├── random_forest.pkl
-│   ├── decision_tree.pkl
-│   ├── knn.pkl
-│   └── naive_bayes.pkl
-│
-├── reports/
-│   ├── model_performance_comparison.csv
-│   └── candidate_ranking_top10.csv
-│
-├── dashboard/
-│   └── recruitment_dashboard.html
-│
-└── README.md
-```
-
----
-
 ##  1. Data Preparation
 
 **Missing Value Handling**

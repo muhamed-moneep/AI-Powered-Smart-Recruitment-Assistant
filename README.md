@@ -1,5 +1,6 @@
 # AI-Powered Smart Recruitment Assistant
-- ITI CodeCamp - AI Professional Dimploma - Gradiuation Project 
+## ITI CodeCamp - AI Professional Dimploma - Gradiuation Project
+
 A machine learning project that predicts whether a candidate who has completed job-related training is actively looking to change jobs. The goal is to help recruiters and HR teams prioritize outreach toward candidates who are genuinely in the market for a new role, instead of spending equal effort on everyone in a training/enrollment pool.
 
 ## What this project does
